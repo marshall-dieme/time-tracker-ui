@@ -1,11 +1,15 @@
 import './assets/css/App.css'
-import Calendar from './components/calendar/Calendar'
+import Navbar from './components/navbar/Navbar'
+import Sidebar from './components/navbar/Sidebar'
 
 function App() {
 
   return (
     <>
-      <Calendar />
+      <Sidebar />
+      <section id="content">
+          <Navbar />
+      </section>
     </>
   )
 }
